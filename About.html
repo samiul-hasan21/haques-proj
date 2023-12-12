@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Project Name</title>
+      <!-- Favicon link -->
+      <link rel="icon" href="./assets/images/logo.png">
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+      <!-- Fontawesome Css Link -->
+      <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+      <!-- Main Css Link -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+
+   </head>
+
+   <body>
+      <!-- Nav Section Start -->
+      <nav>
+         <!-- SideMenu Section Start -->
+         <div id="sidemenu">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Home</a></li>
+               <li><a href="">List-1</a></li>
+               <li><a href="">List-2</a></li>
+               <li><a href="">List-3</a></li>
+               <li><a href="">List-4</a></li>
+               <li><a href="">List-5</a></li>
+               <li><a href="">List-6</a></li>
+               <li><a href="">List-7</a></li>
+               <li><a href="">List-8</a></li>
+               <li><a href="">List-9</a></li>
+               <li><a href="">List-10</a></li>
+               <li><a href="">List-11</a></li>
+               <li><a href="">List-12</a></li>
+               <li><a href="">List-13</a></li>
+            </ul>
+         </div>
+         <!-- //SideMenu Section End -->
+         <div class="container">
+            <div class="row">
+               <div class="logo">
+                  <img src="assets/images/logo.png" alt="">
+               </div>
+               <div class="menu">
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="About.html">About</a></li>
+                     <li><a href="Contact.html">Contact</a></li>
+                     <li><a href="Faq.html">FAQ</a></li>
+                     <li>
+                        <a href="#0">
+                           <i class="fas fa-bars" id="menu_toggle_bar"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#0">
+                           <i class="fas fa-moon" id="mode"></i>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!-- //Nav Section End -->
+
+      <!-- Banner Section Start -->
+      <section id="banner">
+         <div class="container">
+            <div class="row">
+               <div class="banner_content">
+                  <h1>about us</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi illum doloribus tempora consectetur
+                     quibusdam non, libero placeat impedit corrupti accusamus earum voluptatem sint facere veniam autem
+                     rerum. Earum, architecto quos?</p>
+                  <a href="Knowmore.html">Know More</a>
+               </div>
+               <div class="banner_img">
+                  <img src="assets/images/banner_bg.jpg" alt="">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- //Banner Section End -->
+
+      <!-- Service Section Start -->
+      <section id="service">
+         <div class="container">
+            <div class="row">
+               <div class="service_item">
+                  <i class="fas fa-truck"></i>
+                  <h3>Service Title</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laborum iusto ipsum consequatur
+                     placeat facilis ab omnis illo pariatur at!</p>
+               </div>
+               <div class="service_item">
+                  <i class="fas fa-truck"></i>
+                  <h3>Service Title</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laborum iusto ipsum consequatur
+                     placeat facilis ab omnis illo pariatur at!</p>
+               </div>
+               <div class="service_item">
+                  <i class="fas fa-truck"></i>
+                  <h3>Service Title</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laborum iusto ipsum consequatur
+                     placeat facilis ab omnis illo pariatur at!</p>
+               </div>
+               <div class="service_item">
+                  <i class="fas fa-truck"></i>
+                  <h3>Service Title</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laborum iusto ipsum consequatur
+                     placeat facilis ab omnis illo pariatur at!</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- //Service Section End -->
+
+      <!-- Contact Section Start -->
+      <section id="contact">
+         <div class="container">
+            <div class="row">
+               <form>
+                  <div>
+                     <input type="email" placeholder="Enter Your Email">
+                  </div>
+                  <div class="password">
+                     <input type="password" id="password" placeholder="Enter Your Password">
+                     <i class="fas fa-eye-slash" id="password_eye"></i>
+                  </div>
+                  <button type="submit">Submit</button>
+               </form>
+            </div>
+         </div>
+      </section>
+      <!-- //Contact Section End -->
+
+      <input type="number" id="num1" onkeyup="sum()">
+      <input type="number" id="num2" onkeyup="sum()">
+
+      <!-- Main Js Link -->
+      <script src="./assets/js/script.js"></script>
+
+      <script>
+         var num1 = document.getElementById('num1').value
+         var num2 = document.getElementById('num2').value
+
+         function sum(){
+            console.log(Number(num1.value) + Number(num2.value));
+         }
+      </script>
+
+   </body>
+
+</html>
